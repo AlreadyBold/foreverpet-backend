@@ -4,8 +4,6 @@ import com.hello.foreverpet.domain.dto.Address;
 import com.hello.foreverpet.domain.entity.OrderInfo;
 
 import jakarta.validation.constraints.NotNull;
-import lombok.Builder;
-
 
 public class OrderInfoRequest {
     @NotNull
